@@ -1,11 +1,11 @@
-# DiffNorm: Diffusion-based Normalization for Non-autoregressive Speech-to-speech Translation
-#### Weiitng Tan, Jingyu Zhang, Lingfeng Shen, and Philipp Koehn | Johns Hopkins University
+# DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation
+#### Weiitng Tan, Jingyu Zhang, Lingfeng Shen, Daniel Khashabi, and Philipp Koehn | Johns Hopkins University
 
 
-PyTorch Implementation of [DiffNorm (arXiv'24)](todo): Diffusion-based Normalization for Non-autoregressive Speech-to-speech Translation.
+PyTorch Implementation of [DiffNorm (arXiv'24)](https://arxiv.org/abs/2405.13274): Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation.
 <p align="center">
 <a href="LICENSE" alt="MIT License"><img src="https://img.shields.io/badge/license-MIT-FAD689.svg" /></a>
-<a href="todo" alt="paper"><img src="https://img.shields.io/badge/DiffNorm-Paper-D9AB42" /></a>
+<a href="https://arxiv.org/abs/2405.13274" alt="paper"><img src="https://img.shields.io/badge/DiffNorm-Paper-D9AB42" /></a>
 <a href="https://www.clsp.jhu.edu/" alt="jhu"><img src="https://img.shields.io/badge/Johns_Hopkins_University-BEC23F" /></a>
 <a href="https://twitter.com/weiting_nlp">
   <img src="https://img.shields.io/twitter/follow/weiting_nlp?style=social&logo=twitter"
@@ -221,7 +221,14 @@ Lastly, we also provide another inference script `eval_cg.sh` at the same direct
 ## Citations ##
 If you find this code useful in your research, please cite our work:
 ```bib
-TODO
+@misc{tan2024diffnorm,
+      title={DiffNorm: Self-Supervised Normalization for Non-autoregressive Speech-to-speech Translation}, 
+      author={Weiting Tan and Jingyu Zhang and Lingfeng Shen and Daniel Khashabi and Philipp Koehn},
+      year={2024},
+      eprint={2405.13274},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Disclaimer ##
